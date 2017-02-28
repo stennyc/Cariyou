@@ -19,8 +19,19 @@
         </activity>
         <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".WelcomeActivity"
-                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".RegisteredActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".ProfileActivity">
         </activity>
     </application>
 

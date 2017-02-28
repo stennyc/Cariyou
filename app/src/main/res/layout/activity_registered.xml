@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qixiaoyi.cariyou.RegisteredActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:onClick="startlogin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cariyou"/>
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/Inputet"
+            android:hint="    Enter Email Address"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eg. cariyou@gmail.com "
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="80dp"/>
+        <EditText
+            android:id="@+id/et_password1"
+            style="@style/Inputet"
+            android:hint="    Enter Password 6 digits"
+            />
+        <EditText
+        android:id="@+id/et_password2"
+        style="@style/Inputet"
+        android:hint="    Confirm Password 6 digits"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/et_shape_down"
+            android:layout_marginBottom="15dp"
+           >
+            <EditText
+                android:id="@+id/et_vcode"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="36dip"
+                android:padding="5dip"
+                android:textColorHint="#AAAAAA"
+                android:textSize="15dip"
+                android:background="@drawable/et_selector"
+                android:hint="    Enter Verification Code"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="36dip"
+                android:text="Send Code"
+                android:background="@color/colorAccent"
+                android:id="@+id/button"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rigister_text1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/singupnow"
+            android:id="@+id/bt_singup"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

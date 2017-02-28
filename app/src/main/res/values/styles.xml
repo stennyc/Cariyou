@@ -17,6 +17,26 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/window_background</item>
     </style>
+    <!--
+     android:layout_width="match_parent"
+            android:layout_height="36dip"
+            android:background="@drawable/et_selector"
+            android:padding="5dip"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip"-->
+    <style name="Inputet">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">36dip</item>
+        <item name="android:background">@drawable/et_selector</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:textColorHint">#AAAAAA</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:layout_marginBottom">15dip</item>
+    </style>
 
 
 </resources>

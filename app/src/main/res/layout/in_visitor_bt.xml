@@ -9,6 +9,7 @@ android:id="@+id/rl_singup"
 android:layout_gravity="center_horizontal"
     android:layout_marginTop="10dp"
     android:layout_marginBottom="10dp"
+android:onClick="visitor"
     >
 <ImageView
     android:layout_width="wrap_content"
@@ -24,7 +25,7 @@ android:layout_gravity="center_horizontal"
     android:layout_gravity="center_horizontal"
     android:background="@color/colorPrimaryDark"
     android:text="@string/visitor"
-    android:id="@+id/bt_singup"
+    android:id="@+id/bt_visitor"
     android:layout_toEndOf="@id/iv_singup"
     />
 </RelativeLayout>
