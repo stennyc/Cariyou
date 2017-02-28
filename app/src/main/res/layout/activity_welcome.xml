@@ -1,36 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_welcome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.qixiaoyi.cariyou.WelcomeActivity">
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/cariyou"/>
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:orientation="vertical">
         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cariyou"/>
+        <include layout="@layout/in_singup_bt"/>
+        <include layout="@layout/in_visitor_bt"/>
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/text"
-            android:id="@+id/iv_singup"
-            android:padding="12dp"
-            android:background="@color/colorAccent"
-            />
-        <Button
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lines="2"
+            android:text="@string/welcome_text1"
             android:layout_gravity="center_horizontal"
-            android:background="@color/colorPrimaryDark"
-            android:text="@string/singupnow"
-            android:id="@+id/bt_singup"
-            android:layout_toEndOf="@id/iv_singup"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
             />
-    </RelativeLayout>
-</LinearLayout>
+        <View
+            android:layout_width="280dp"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wecome_text2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/facebook"
+                    android:id="@+id/iv_facebook"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:textSize="13sp"
+                    android:layout_below="@id/iv_facebook"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wechat"
+                    android:textSize="13sp"
+                    android:layout_below="@id/iv_wechat"
+                    android:layout_centerHorizontal="true"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/wechat"
+                    android:id="@+id/iv_wechat"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+</RelativeLayout>

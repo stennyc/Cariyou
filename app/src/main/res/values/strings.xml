@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Cariyou</string>
     <string name="singupnow">Sign up Now</string>
+    <string name="visitor">I am a visitor</string>
+    <string name="welcome_text1">By using Cariyou, you agree to the Terms, Cookie Policy, and Privacy Polic</string>
+    <string name="wecome_text2">Login using social media account:</string>
 </resources>
