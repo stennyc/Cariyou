@@ -70,15 +70,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Wechat"
-                    android:textSize="13sp"
-                    android:layout_below="@id/iv_wechat"
-                    android:layout_centerHorizontal="true"/>
-
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
@@ -86,7 +77,16 @@
                     android:id="@+id/iv_wechat"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentStart="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wechat"
+                    android:textSize="13sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/iv_wechat"
+                    />
             </RelativeLayout>
+
         </LinearLayout>
     </LinearLayout>
 
