@@ -85,4 +85,18 @@
         <item name="android:paddingBottom">2dp</item>
     </style>
 
+    <!--    android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:drawablePadding="3dp"
+            android:textSize="18sp"-->
+    <style name="mainbottom">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>

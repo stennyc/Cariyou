@@ -5,11 +5,11 @@ import android.os.Bundle;
 import com.qixiaoyi.cariyou.R;
 import com.qixiaoyi.cariyou.base.RxBaseActivity;
 
-public class MainActivity extends RxBaseActivity {
+public class SerchActivity extends RxBaseActivity {
 
     @Override
     public int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_serch;
     }
 
     @Override
