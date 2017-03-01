@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.qixiaoyi.cariyou.ProfileActivity">
+    tools:context="com.qixiaoyi.cariyou.module.ProfileActivity">
 <Toolbar
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

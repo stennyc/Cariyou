@@ -9,29 +9,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashActivity"
+            android:name=".module.SplashActivity"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            android:screenOrientation="portrait"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".module.MainActivity"
+                  android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".module.WelcomeActivity"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
         <activity
-            android:name=".RegisteredActivity"
+            android:name=".module.RegisteredActivity"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".module.LoginActivity"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
-        <activity android:name=".ProfileActivity">
+        <activity android:name=".module.ProfileActivity"
+                  android:screenOrientation="portrait">
         </activity>
     </application>
 

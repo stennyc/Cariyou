@@ -1,8 +1,10 @@
-package com.qixiaoyi.cariyou;
+package com.qixiaoyi.cariyou.module;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.qixiaoyi.cariyou.R;
 
 public class SplashActivity extends Activity {
 

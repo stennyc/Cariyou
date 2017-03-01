@@ -1,7 +1,9 @@
-package com.qixiaoyi.cariyou;
+package com.qixiaoyi.cariyou.module;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.qixiaoyi.cariyou.R;
 
 public class LoginActivity extends Activity {
 

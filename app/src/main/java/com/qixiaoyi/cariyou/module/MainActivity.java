@@ -1,7 +1,9 @@
-package com.qixiaoyi.cariyou;
+package com.qixiaoyi.cariyou.module;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.qixiaoyi.cariyou.R;
 
 public class MainActivity extends AppCompatActivity {
 
