@@ -38,5 +38,51 @@
         <item name="android:layout_marginBottom">15dip</item>
     </style>
 
+    <!-- android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_30"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+             android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"-->
+    <style name="Profiletextview">
+        <item name="android:layout_weight">6</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue_30</item>
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- android:layout_weight="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:background="@null"-->
+    <style name="Profileedittext" parent="Profiletextview">
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <!--android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"-->
+    <style name="Profilelinearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
 
 </resources>

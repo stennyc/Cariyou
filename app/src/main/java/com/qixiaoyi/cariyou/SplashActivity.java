@@ -10,6 +10,6 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        startActivity(new Intent(SplashActivity.this,WelcomeActivity.class));
+        startActivity(new Intent(SplashActivity.this,ProfileActivity.class));
     }
 }
