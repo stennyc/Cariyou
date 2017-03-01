@@ -247,79 +247,44 @@
 
            <TextView
                android:id="@+id/tv_head_a"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:background="@drawable/house_rent"
-               android:text="消息"
-               android:paddingLeft="16dp"
-               android:paddingRight="16dp"
-               android:paddingTop="5dp"
-               android:paddingBottom="5dp"
+               android:text="Private"
                android:textColor="@color/black_80"
-               android:textSize="15sp" />
+               android:background="@drawable/tvshape1"
+               android:layout_weight="1"
+               style="@style/style" />
            <TextView
                android:id="@+id/tv_head_c"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:background="@drawable/house_rent_selected"
-               android:text="消息"
-               android:paddingLeft="16dp"
-               android:paddingRight="16dp"
-               android:paddingTop="5dp"
-               android:paddingBottom="5dp"
-               android:textColor="@drawable/tv_touch_color"
-               android:textSize="15sp"
+               android:background="@drawable/tvshape4"
+               android:textColor="@color/white"
+               android:text="Private"
+               android:layout_weight="1"
+               style="@style/style"
                android:visibility="gone" />
 
            <TextView
-               android:id="@+id/tv_head_b"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:background="@drawable/house_sell_selected"
-               android:textColor="@drawable/tv_touch_color"
-               android:paddingLeft="16dp"
-               android:paddingRight="16dp"
-               android:paddingTop="5dp"
-               android:paddingBottom="5dp"
-               android:text="电话"
-               android:textSize="15sp" />
+               android:text="Agent"
+               android:background="@color/colorPrimaryDark"
+               android:layout_weight="1"
+               style="@style/style"
+               />
 
            <TextView
-               android:id="@+id/tv_head_d"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:background="@drawable/house_sell"
-               android:text="电话"
-               android:paddingLeft="16dp"
-               android:paddingRight="16dp"
-               android:paddingTop="5dp"
-               android:paddingBottom="5dp"
+               android:id="@+id/tv_head_b"
+               android:text="Company"
+               android:background="@drawable/tvshape2"
                android:textColor="@color/black_80"
-               android:textSize="15sp"
-               android:visibility="gone"  />
+               android:layout_weight="1"
+               style="@style/style" />
 
-           <!--<TextView-->
-               <!--android:layout_width="match_parent"-->
-               <!--android:layout_height="match_parent"-->
-               <!--android:layout_weight="1"-->
-               <!--android:gravity="center"-->
-               <!--android:textSize="13.5sp"-->
-               <!--android:background="@color/yellow_30"-->
-               <!--android:text="Private"/>-->
-           <!--<TextView-->
-               <!--android:layout_width="match_parent"-->
-               <!--android:layout_height="wrap_content"-->
-               <!--android:layout_weight="1"-->
-               <!--android:gravity="center"-->
-               <!--android:textSize="13.5sp"-->
-               <!--android:text="Agent"/>-->
-           <!--<TextView-->
-               <!--android:layout_width="match_parent"-->
-               <!--android:layout_height="wrap_content"-->
-               <!--android:layout_weight="1"-->
-               <!--android:gravity="center"-->
-               <!--android:textSize="13.5sp"-->
-               <!--android:text="Company"/>-->
+           <TextView
+               android:text="Company"
+               android:textColor="@color/white"
+               android:background="@drawable/tvshape3"
+               android:visibility="gone"
+               android:id="@+id/tv_head_d"
+               android:layout_weight="1"
+               style="@style/style"
+                 />
        </LinearLayout>
     </LinearLayout>
 
