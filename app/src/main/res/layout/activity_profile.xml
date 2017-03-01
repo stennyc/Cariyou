@@ -87,6 +87,9 @@
     </LinearLayout>
     <include layout="@layout/profile_fenge"/>
 
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
     <LinearLayout
         style="@style/Profilelinearlayout"
         >
@@ -240,29 +243,83 @@
            android:layout_marginRight="30dp"
            android:padding="6dp"
            android:layout_gravity="center_vertical"
-           android:background="@drawable/bt_shape_hui">
+           >
+
            <TextView
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:layout_weight="1"
-               android:gravity="center"
-               android:textSize="13.5sp"
-               android:background="@color/yellow_30"
-               android:text="Private"/>
-           <TextView
-               android:layout_width="match_parent"
+               android:id="@+id/tv_head_a"
+               android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:layout_weight="1"
-               android:gravity="center"
-               android:textSize="13.5sp"
-               android:text="Agent"/>
+               android:background="@drawable/house_rent"
+               android:text="消息"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"
+               android:paddingTop="5dp"
+               android:paddingBottom="5dp"
+               android:textColor="@color/black_80"
+               android:textSize="15sp" />
            <TextView
-               android:layout_width="match_parent"
+               android:id="@+id/tv_head_c"
+               android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:layout_weight="1"
-               android:gravity="center"
-               android:textSize="13.5sp"
-               android:text="Company"/>
+               android:background="@drawable/house_rent_selected"
+               android:text="消息"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"
+               android:paddingTop="5dp"
+               android:paddingBottom="5dp"
+               android:textColor="@drawable/tv_touch_color"
+               android:textSize="15sp"
+               android:visibility="gone" />
+
+           <TextView
+               android:id="@+id/tv_head_b"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/house_sell_selected"
+               android:textColor="@drawable/tv_touch_color"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"
+               android:paddingTop="5dp"
+               android:paddingBottom="5dp"
+               android:text="电话"
+               android:textSize="15sp" />
+
+           <TextView
+               android:id="@+id/tv_head_d"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/house_sell"
+               android:text="电话"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"
+               android:paddingTop="5dp"
+               android:paddingBottom="5dp"
+               android:textColor="@color/black_80"
+               android:textSize="15sp"
+               android:visibility="gone"  />
+
+           <!--<TextView-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="match_parent"-->
+               <!--android:layout_weight="1"-->
+               <!--android:gravity="center"-->
+               <!--android:textSize="13.5sp"-->
+               <!--android:background="@color/yellow_30"-->
+               <!--android:text="Private"/>-->
+           <!--<TextView-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:layout_weight="1"-->
+               <!--android:gravity="center"-->
+               <!--android:textSize="13.5sp"-->
+               <!--android:text="Agent"/>-->
+           <!--<TextView-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:layout_weight="1"-->
+               <!--android:gravity="center"-->
+               <!--android:textSize="13.5sp"-->
+               <!--android:text="Company"/>-->
        </LinearLayout>
     </LinearLayout>
 
