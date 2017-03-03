@@ -12,7 +12,8 @@
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="28dp"
+        android:id="@+id/linearLayout">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,42 +24,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Log in"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorPrimaryDark"
             android:onClick="startlogin"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/cariyou"/>
+            android:src="@drawable/cariyou"
+            android:layout_marginTop="20dp"/>
         <EditText
             android:id="@+id/et_email"
             style="@style/Inputet"
-            android:hint="    Enter Email Address"
-            android:layout_marginBottom="5dp"
+            android:hint="Enter Email Address"
+            android:layout_marginBottom="6dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="eg. cariyou@gmail.com "
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="80dp"/>
+            android:textSize="12sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black_80"
+            android:layout_marginLeft="70dp"/>
         <EditText
             android:id="@+id/et_password1"
             style="@style/Inputet"
-            android:hint="    Enter Password 6 digits"
+            android:layout_marginBottom="11dp"
+            android:hint="Enter Password 6 digits"
             />
         <EditText
         android:id="@+id/et_password2"
         style="@style/Inputet"
-        android:hint="    Confirm Password 6 digits"
+        android:layout_marginBottom="11dp"
+        android:hint="Confirm Password 6 digits"
         />
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,26 +70,34 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:orientation="horizontal"
-            android:background="@drawable/et_shape_down"
             android:layout_marginBottom="15dp"
            >
             <EditText
                 android:id="@+id/et_vcode"
                 android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="36dip"
-                android:padding="5dip"
+                android:layout_height="45dip"
+                android:paddingLeft="20dip"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
                 android:textColorHint="#AAAAAA"
                 android:textSize="15dip"
-                android:background="@drawable/et_selector"
-                android:hint="    Enter Verification Code"
+                android:background="@drawable/etshapeleft"
+                android:hint="Enter Verification Code"
                 />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="36dip"
+                android:layout_height="45dip"
                 android:text="Send Code"
-                android:background="@color/colorAccent"
+                android:layout_gravity="center_vertical"
+                android:textSize="12sp"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/etshaperight"
                 android:id="@+id/button"/>
         </LinearLayout>
 
@@ -95,16 +107,18 @@
             android:text="@string/rigister_text1"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
+
             />
         <Button
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="45dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginTop="20dp"
             android:background="@drawable/bt_shape"
             android:text="@string/singupnow"
+            android:textColor="@color/white"
             android:id="@+id/bt_singup"
+            android:layout_marginTop="20dp"
             />
 
     </LinearLayout>

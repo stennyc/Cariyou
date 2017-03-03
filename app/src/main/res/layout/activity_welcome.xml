@@ -12,15 +12,16 @@
         android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="53dp"
             android:src="@drawable/cariyou"/>
         <include layout="@layout/in_singup_bt"/>
         <include layout="@layout/in_visitor_bt"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:lines="2"
             android:text="@string/welcome_text1"
             android:layout_gravity="center_horizontal"
@@ -29,8 +30,8 @@
             />
         <View
             android:layout_width="280dp"
-            android:layout_height="3dp"
-            android:background="@color/colorPrimaryDark"
+            android:layout_height="1dp"
+            android:background="@color/bangumi_badge_gary"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"/>
         <TextView
@@ -98,7 +99,7 @@
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="28dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -109,8 +110,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Log in"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorPrimaryDark"
             android:onClick="startlogin"/>
     </LinearLayout>
 </RelativeLayout>
