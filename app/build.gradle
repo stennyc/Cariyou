@@ -10,9 +10,10 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
         ndk {
             // 设置支持的SO库架构
-            abiFilters 'armeabi' , 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
         }
         jackOptions {
             enabled true
@@ -37,31 +38,31 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testCompile 'junit:junit:4.12'
     //androidlib
-    compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.android.support:design:24.2.1'
-    compile 'com.android.support:cardview-v7:24.2.1'
     //Retrofit2
+    //OkHttp3
+    //RxJava and RxAndroid
+    //RxLifecycle 内存泄露
+    //黄油刀butterknife
+    //RxPermissons 权限管理
+    //图片加载库glide
+    //Realm数据
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
     compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
     compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
-    //OkHttp3
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
-    //RxJava and RxAndroid
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.0'
-    //RxLifecycle 内存泄露
     compile 'com.trello:rxlifecycle-components:0.6.1'
-
-    //黄油刀butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
-
-    //RxPermissons 权限管理
     compile 'com.tbruyelle.rxpermissions:rxpermissions:0.7.0@aar'
-    //图片加载库glide
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    //Realm数据
     compile 'io.realm:realm-android:0.87.0'
+    compile 'com.google.android.gms:play-services:10.2.0'
+    testCompile 'junit:junit:4.12'
+    compile 'org.robolectric:shadows-multidex:3.3'
 }

@@ -7,4 +7,5 @@
     <string name="rigister_text1">A verification code was sent to you by Email</string>
     <string name="logintitle">ALREADY A CARIYOUER?</string>
     <string name="login_text">Sign in to your account and then enter your phone number to restore your points, favorites &amp; history.</string>
+    <string name="title_activity_home">Map</string>
 </resources>
