@@ -53,48 +53,10 @@
         android:layout_marginTop="5dp"/>
 
     <LinearLayout
-        android:id="@+id/ll_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimaryDark"
-        android:paddingTop="10dp">
-        <TextView
-            android:id="@+id/tv_select1"
-            android:text="ddd"
-            android:drawableTop="@drawable/arrow_darkcyan_left"
-            style="@style/mainbottom"
-            />
-        <TextView
-            android:id="@+id/tv_select2"
-            android:layout_weight="1"
-            android:text="ddd"
-            android:drawableTop="@drawable/publish_darkcyan"
-            style="@style/mainbottom"
-            />
-        <TextView
-            android:id="@+id/tv_select3"
-            android:text="ddd"
-            android:drawableTop="@drawable/complaint_darkcyan"
-            style="@style/mainbottom"
-            />
-        <TextView
-            android:id="@+id/tv_select4"
-            android:text="ddd"
-            android:drawableTop="@drawable/profile_white"
-
-            />
-        <TextView
-            android:id="@+id/tv_select5"
-            android:text="ddd"
-            android:drawableTop="@drawable/arrow_darkcyan_right"
-            style="@style/mainbottom"
-            />
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/home_bottom"/>
     </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/gray_80"
-        android:layout_alignTop="@id/ll_bottom"/>
 </RelativeLayout>

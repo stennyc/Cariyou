@@ -95,16 +95,28 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:drawablePadding="3dp"
-            android:textSize="18sp"-->
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"-->
     <style name="mainbottom">
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:drawablePadding">3dp</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
     </style>
 
+
+    <style name="mainbottom2">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">@dimen/x20</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
     <!-- android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:paddingLeft="16dp"
