@@ -1,4 +1,4 @@
-package com.qixiaoyi.cariyou.module;
+package com.qixiaoyi.cariyou.module.T1splash;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.qixiaoyi.cariyou.R;
+import com.qixiaoyi.cariyou.module.RegisteredActivity;
 
 public class WelcomeActivity extends Activity {
 

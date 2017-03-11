@@ -1,4 +1,4 @@
-package com.qixiaoyi.cariyou.module;
+package com.qixiaoyi.cariyou.module.T1splash;
 
 import android.app.Activity;
 import android.os.Bundle;

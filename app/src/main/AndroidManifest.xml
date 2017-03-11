@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".module.SplashActivity"
+            android:name=".module.T1splash.SplashActivity"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
             android:screenOrientation="portrait"
             <intent-filter>
@@ -30,7 +30,7 @@
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".module.WelcomeActivity"
+            android:name=".module.T1splash.WelcomeActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
@@ -40,7 +40,7 @@
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
         <activity
-            android:name=".module.LoginActivity"
+            android:name=".module.T1splash.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
@@ -65,6 +65,12 @@
         <activity
             android:name=".module.HomeActivity"
             android:label="@string/title_activity_home">
+        </activity>
+        <activity android:name=".module.T12personalcenter.EvaluationActivity">
+        </activity>
+        <activity android:name=".module.T12personalcenter.FeedbackCommentsActivity">
+        </activity>
+        <activity android:name=".module.T11.EditbusinesshoursActivity">
         </activity>
     </application>
 
